@@ -5,31 +5,75 @@
     <title>Input elements</title>
 </head>
 <body>
- <!--button-->
-  <button> </button>
-   <!--input types-->
-<input type="checkbox"><br><br>
-<input type="color"><br><br>
-<input type="date"><br><br>
-<input type="datetime-local"><br><br>
-<input type="datetime"><br><br>
-<input type="email"><br><br>
-<input type="file"><br><br>
-<input type="hidden"><br><br>
-<input type="image"><br><br>
-<input type="month"><br><br>
-<input type="number"><br><br>
-<input type="password"><br><br>
-<input type="radio"><br><br>
-<input type="range"><br><br>
-<input type="reset"><br><br>
-<input type="search"><br><br>
-<input type="submit"><br><br>
-<input type="tel"><br><br>
-<input type="text"><br><br>
-<input type="time"><br><br>
-<input type="url"><br><br>
-<input type="week"><br><br>
-<br><br><br><br><br><br>
+    <!--input types-->
+    <fieldset>
+        <legend><h2>Registration</h2></legend>
+        <form action="" autocomplete="off" name="registration">
+            <input type="text" placeholder="First Name" required ><br>
+            <input type="text" placeholder="Last Name"><br>
+            <input type="date" ><br>
+            <!--first version-->
+            <label for="male">Male</label><input type="radio" name="gen1" id="male">
+            <!--second version-->
+            <label><input type="radio" name="gen1" id="femail">Femail</label><br>
+            <input type="email" placeholder="@email"><br>
+            <input type="tel" name="tel" id="tel1" placeholder="tel.number"><br>
+            <input type="password" placeholder="password" name="" id=""><br>
+            <input type="submit" value="Sign-in">
+        </form>
+    </fieldset>    
+    <br>
+    <hr>
+    <fieldset>
+        <legend><h2>Login</h2></legend>
+        <form action="" autocomplete="off" name="login">
+            <img src="img/iconmonstr-user-19.png" alt="for-user"><br>
+            <input type="email" placeholder="@email" name="email"><br>
+            <input type="password" placeholder="password" name="password" id=""><br>
+            <label><input type="checkbox" name="checkbox" id="">Remember me</label><br>
+            <a href="#">Forgot password</a><br>
+            <input type="submit" value="Login">
+        </form>
+    </fieldset>
+    <br><br><br>
+    <hr>
+    <fieldset>
+        <legend><h2>What kind of hobby do you prefer depends on session</h2></legend>
+        <img src="img/iconmonstr-user-19.png" alt="for-user"><br>
+        <input type="file" name="file" id="file1">
+        <form action="" autocomplete="off" name="login">
+          <label><input type="checkbox" name="sport">Sport</label><br>
+          <label><input type="checkbox" sport="reading">Reading</label><br>
+          <label><input type="checkbox" name="swimming">Swimming</label><br>
+          <label><input type="checkbox" name="dance">Dance</label><br>
+          <label><input type="checkbox" name="programming">Programming</label><br> 
+          <span>Choose mounth</span> 
+          <select name="" id="">
+            <optgroup label="spring mounth">
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">Ogoust</option>
+            </optgroup>
+              <optgroup label="summer mounth">
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="ogoust">Ogoust</option>
+              </optgroup>
+              <optgroup label="autmn mounth">
+                <option value="">September</option>
+                <option value="">October</option>
+                <option value="">November</option>
+            </optgroup>
+            <optgroup label="winter mounth">
+                <option selected>January</option>
+                <option value="">February</option>
+                <option value="">December</option>
+            </optgroup>
+          </select>
+          <input type="submit" value="send">
+          <input type="reset" value="Delete">
+        </form>
+        
+    </fieldset>
 </body>
 </html>
