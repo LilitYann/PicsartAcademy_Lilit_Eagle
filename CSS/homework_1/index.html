@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .style_2{
+            font-size: 100px;
+            border: 3px dotted blue; 
+            transition: 1s all linear;
+
+        }
+        .style_2:hover{
+            background-color: green;
+            border-color: black;
+            transform: scale(3) rotate(180deg);
+           
+        }
+        hr{
+            border-color: black;
+        }
+    </style>
+    <title>CSS lesson 1</title>
+</head>
+<body>
+    <h1>style 1</h1>
+    <div class="style_2">style 2</div>
+    <div style="color: blue; font-size: 24px;">style 3</div>
+
+    <hr><hr>
+
+ <!-- problem 2 -->
+    <p id="lorem1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat corporis porro sint, culpa voluptatibus ducimus labore impedit repudiandae quibusdam sed sit ea ut iusto dicta tenetur! Praesentium illum asperiores cupiditate dolorem aspernatur tempora itaque consequuntur quas! Nihil possimus iusto eveniet iste ab, corrupti quis non, ipsam fugiat magni tempore repudiandae?
+    </p>
+    <hr>
+
+    <p id="lorem2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus laudantium quidem quia, veniam facilis vero dignissimos! Dolorem est laborum nesciunt sed. Beatae fugiat perspiciatis sint, facere sunt eligendi voluptatum, repudiandae necessitatibus eaque eum mollitia! Libero aut natus, ad praesentium obcaecati dolorum modi voluptatum unde aliquid tenetur amet, repudiandae excepturi. Corrupti!
+    </p>
+    <hr>
+
+    <p id="lorem3">       
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita obcaecati ad sunt iste distinctio quo nobis dolorum eaque esse, culpa, temporibus iure soluta doloremque ea magni provident quisquam accusamus error quos velit enim illum. Quam, ullam quaerat! Sapiente quo quidem vel optio reprehenderit impedit illo, dolor ipsam ea molestiae incidunt.
+    </p>
+<br>
+<hr>
+    <!-- problem 4 -->
+    <div class="parent">
+        <p class="child">Child <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aspernatur iste? Reiciendis obcaecati labore mollitia placeat accusamus expedita impedit sapiente error. Consequuntur itaque ducimus voluptates officia, doloremque obcaecati voluptate libero architecto voluptas fugiat culpa cum quasi debitis veniam eum at maxime quidem voluptatem blanditiis magnam atque, provident dolore! Neque expedita consequatur veritatis beatae labore officiis quidem totam quasi fugit optio voluptas aliquam laboriosam ipsam molestiae eos explicabo, tenetur necessitatibus harum asperiores distinctio ex eum et?
+        </p>
+    </div>
+</body>
+</html>
+ <!-- 
+    transition 1s linear
+
+        gives to parent, do actions in one second or more
+        all linear- gcayin,if we mention all, that's mean give this style to all linears,
+
+    border-color: black;  -  ezragceri guyn
+
+    transform: scale(3) -  makes size bigger during hover
+
+    rotate(180deg)  -   rotate it during hover
+
+    p#lorem2 + enter = making element with id
+
+    id = #
+    class = .
+    solid - stricked ine;
+ -->
+ <!-- colors
+    HTML HSL and HSLA Colors
+HSL stands for hue, saturation, and lightness.
+
+HSLA color values are an extension of HSL with an Alpha channel (opacity).
+
+HSL Color Values
+In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+hsl(hue, saturation, lightness)
+
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+
+Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
+
+Lightness is also a percentage value, 0% is black, and 100% is white.
+
+HSLA Color Values
+HSLA color values are an extension of HSL color values with an Alpha channel - which specifies the opacity for a color.
+
+An HSLA color value is specified with:
+
+hsla(hue, saturation, lightness, alpha)
+
+The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all):
+-->
