@@ -1,0 +1,34 @@
+body{
+    background-color: pink;   
+}
+
+#lorem1{
+    /* hexadecimal */
+    color: #fff000;
+}
+
+#lorem2{
+    color: rgb(147, 52, 52);
+}
+
+#lorem3{
+    color: rgba(200, 100, 152, 0.8);
+    
+}
+/* problem 3 */
+p{   
+ font-style: italic;
+}
+
+p:hover{
+    background-color: gray;
+}
+/* problem 4 */
+.parent{
+    color: yellow;
+    border: solid;
+}
+html.body.div.p{
+    color: black;
+}
+

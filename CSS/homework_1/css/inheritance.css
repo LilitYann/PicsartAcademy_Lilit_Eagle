@@ -1,0 +1,29 @@
+body{
+    color: blueviolet;
+}
+.experiment1 {
+color: rgb(7, 72, 72);
+}
+.experiment2 {
+    color: rgb(51, 255, 0);
+}
+.experiment3 {
+    color: rgb(255, 0, 25);
+}
+
+html body article .experiment1{
+    color: rgb(16, 123, 123);
+} 
+#profession{
+    font-family: Verdana;
+    border: dashed rgb(24, 1, 24);
+}
+p{
+    font-size: 25px;
+    font-family: Verdana;
+}
+h1{
+    color: black;
+    text-align: center;
+}
+
