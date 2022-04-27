@@ -1,0 +1,122 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgba(244, 161, 229, 0.66);
+    padding: 15px;
+}
+/* ...................header........ */
+h1{
+    /* font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-variant: small-caps; */
+    padding: 10px;
+    font: 40px Arial, Helvetica, sans-serif, bolder, oblique, small-caps ;
+    text-align: center;
+    /* text-shadow: 30px; */
+    background-color: rgba(243, 67, 176, 0.669);
+    color: rgb(78, 14, 53);
+}
+/* ...........heading................. */
+h3{
+    padding:15px 0;
+    font-weight: bolder;
+}
+/* ..........main............. */
+.main{
+    margin: 0 0 0 0;
+    padding: 20px;
+    font-size: 25px;
+    text-align: justify;
+}
+.container .main .intro{
+    /* padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 15px; */
+    padding: 15px 20px;
+    text-indent: 25px;
+    text-align: justify;
+}
+.main .intro{
+    /* margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px; */
+    margin: 10px 15px ;
+    padding: 15px 0;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    /* display: inline; */
+    /* border: inline i jamanak sa xarnvum e */
+}
+.intro .image1{
+    padding: 20px;
+    display: block;
+    text-align: center;
+    max-height: auto;
+}
+.image1 img{
+    width: 300px;
+}
+
+.image1 img:hover{
+    border: 3px solid rebeccapurple;
+    border-image-source: url(/CSS/homework_2/css/img/log.jpg);
+}
+/* ...........container............ */
+.container{
+    padding:15px auto;
+    text-align: justify;
+}
+/* .............head  Գլխի դիրքը........... */
+.head{ 
+    margin:10px 0;
+    padding: 10px;
+    border: 3px dotted lightcoral;
+    /* background-color: brown; */
+
+}
+.head div{
+    width: 50px;
+}
+
+/* ..........face  դեմքի և աչքերի միմիկան............. */
+/* ul li{
+    list-style-image: url(/CSS/homework_2/css/img/select.png);
+    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    height: px;
+
+    նկարը նորմալ չափերի չի լինում բերել
+}  */
+
+ul.li{
+    background-color: red;
+}
+/* .............hands  <h3>Ժեստերի լեզու. ձեռքեր</h3>.............. */
+.hands{
+    /* hands ի content ը պիտի լիներ border ի ներսում որ scroll լիներ */
+    max-width: 500px;
+    min-height: 100px;
+    margin: auto;
+    border: 3px solid #73AD21;
+    overflow-y: scroll;
+}
+
+.sholder span{ 
+    padding: 5px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 1px solid blue;
+    background-color: yellow;
+    
+}
