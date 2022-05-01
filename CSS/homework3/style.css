@@ -41,8 +41,31 @@ select{
     width: 398px;
 }
 
-.gender{
-    
+.femail{
+    display: inline-block;
+    width: 100px;
+    margin: 10px 0;
+    padding: 4px;
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.male{
+    display: inline-block;
+    width: 100px;
+    margin: 5px 0;
+    padding: 4px;
+    background-color: white;
+    border: 2px solid gray;
+}
+
+.custom{
+    display: inline-block;
+    width: 100px;
+    margin: 10px 0;
+    padding: 4px;
+    background-color: white;
+    border: 2px solid gray;
 }
 
 .submit{
