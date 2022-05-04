@@ -100,8 +100,6 @@ header{
     
 }
 
-
-
 .armenian_highlinds1{
     /* position: absolute; */
     top: 10px; left: 25px;
@@ -119,7 +117,6 @@ header{
 .armenian_highlinds1:nth-child(2n+1){
     color: blueviolet;
 }
-
 
 .main .container .mountain_eagle{
     width: 400px;
@@ -192,8 +189,9 @@ footer{
     background-color: #2b2a2c;
 }
 
-div iframe{
-    margin: 15px;
+div iframe:hover{
+    border-radius: 45px;
+    padding: 20px;
 
 }
 
