@@ -1,0 +1,210 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 1s all linear;
+}
+
+header{
+    position: fixed;
+    background: rgb(5, 5, 77);
+    width: 100%;
+    height: 90px;
+    text-align: center;
+}
+
+/* .................menu.................. */
+
+.menu{
+    padding-top: 25px;
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+.menu a{
+    margin-right: 20px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.menu a:hover{
+    color: mediumpurple; 
+    padding-left: 50px;  
+}
+
+/* ....................introduction................ */
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgb(220, 246, 246);
+}
+
+.armenian_poem_first_part, .armenian_poem_second_part{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.logo_img{
+    width: 500px;
+    /* padding: 10px; */
+    text-align: center;
+    
+}
+
+.logo_img img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(229, 219, 36);
+}
+
+.logo_img blockquote{
+    padding: 15px;
+    line-height: 37px;
+    font-size: 25px;
+}
+
+/* ....... main....... */
+.main{
+    margin: 30px;
+}
+
+.main .heading_primary{
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    color: darkslateblue;
+    text-shadow: 2px 2px 5px rgb(214, 225, 61);
+}
+
+.main .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .container h2{
+    color: rgb(9, 9, 134);
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.main .container .armenian_highlinds{
+    /* position: relative; */
+    padding: 15px;
+    width: 400px;
+    text-align: justify;
+    
+}
+
+
+
+.armenian_highlinds1{
+    /* position: absolute; */
+    top: 10px; left: 25px;
+}
+
+/* ................pseudo elements.............. */
+.armenian_highlinds1:nth-child(2){
+    color: rgb(123, 103, 103);
+}
+
+.armenian_heroes_list li:nth-child(1){
+    color: rgb(154, 150, 35);
+}
+
+.armenian_highlinds1:nth-child(2n+1){
+    color: blueviolet;
+}
+
+
+.main .container .mountain_eagle{
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    background-image: url("/CSS/homework_4/img/eagle.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+    color: rgb(228, 224, 224);
+    font-size: 20px;
+    line-height: 40px;
+    overflow-y: scroll;
+}
+
+/* ..................... visibility, opacity, display............. */
+
+.mountain_eagle_1{
+    opacity: 0.5;
+}
+
+.mountain_eagle_3{
+    visibility: hidden;
+}
+
+.mountain_eagle_4{
+    display: none;
+}
+
+.main .container .armenian_herous{
+    width: 400px;
+    padding: 25px;
+    background-image: url("/CSS/homework_4/img/flagg.jpg");
+    background-repeat: repeat-y;
+    background-position: cover;
+    max-height: 400px;
+    overflow-y: scroll;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.armenian_herous .armenian_heroes_header{
+    /* guyny chi poxum */
+    color: rgb(60, 43, 10);
+}
+
+/* ............... նշում է ul li կետերը */
+
+.armenian_heroes_list ::marker {
+    color: rgb(244, 240, 19);
+    font-size: 23px;
+}
+
+․armenian_herous a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+/* chi ashxatum */
+․armenian_herous a:hover{
+    color: blanchedalmond;
+}
+/* ............footer................ */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #2b2a2c;
+}
+
+div iframe{
+    margin: 15px;
+
+}
+
+footer a{
+    color: aliceblue;
+    margin: 30px;
+    font-size: 25px;
+}
+
+footer a:hover{
+    font-weight: bold;
+    color: yellow;
+}
+

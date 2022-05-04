@@ -7,11 +7,14 @@
 }
 
 input{
-    padding: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 input:hover{
-    border: 1px solid lightseagreen
+    border: 2px solid lightseagreen;
+    border-style:groove;
 }
 
 form{
