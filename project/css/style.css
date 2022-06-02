@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap'); 
+ 
+*{ 
+    margin: 0; padding: 0; 
+    box-sizing: border-box; 
+    transition: .2s all linear; 
+    text-decoration: none; 
+    font-family: 'Ubuntu', sans-serif; 
+} 
+ 
+/* ................header................ */ 
+header{ 
+    position: fixed; 
+    width: 100%; 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    background-image: linear-gradient(to right, rgba(177, 235, 244, 0.724), rgb(246, 244, 244)); 
+} 
+ 
+.logo{ 
+    width: 100px; 
+} 
+ 
+.logo img{ 
+    width: 100%; 
+    border-radius: 50%; 
+} 
+ 
+.title h1{ 
+    color: rgb(94, 94, 184); 
+    font-size: 40px; 
+    text-shadow: 2px 2px 2px rgb(187, 185, 185); 
+} 
+ 
+.title h1:hover{ 
+    padding: 20px;
+    color: rgb(16, 8, 71); 
+} 
+ 
+.search input{ 
+    font-size: 14px; 
+    padding: 10px; 
+    border: 2px solid rgb(36, 6, 61); 
+    box-shadow: 8px 8px 8px gray; 
+} 
+
+.search input:hover{
+    border: 3px solid lightblue;
+}
+ 
+.search i{ 
+    padding: 8px; 
+    font-size: 20px; 
+    color: rgb(23, 5, 64); 
+    cursor: pointer; 
+} 
+
+.search i:hover{
+    transform: scale(1.2);
+}
+ 
+nav a{ 
+    font-size: 20px; 
+    padding: 8px; 
+    border-left: 2px double; 
+    color: rgb(98, 14, 159); 
+    transition: .5s;
+} 
+nav a:hover{
+    font-weight: bolder;
+    color: rgb(50, 50, 158);
+}
+ 
+ 
+/* ................aside  main................ */ 
+ 
+section{ 
+    background: rgb(186, 187, 182); 
+    display: flex; 
+} 
+
+.eagle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo1 img{
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.btn{
+    margin: 10px;
+    font-size: 18px; 
+    padding: 8px; 
+    border: 1px solid rgb(36, 6, 61); 
+    box-shadow: 8px 8px 8px gray;
+    cursor: pointer; 
+}
+ 
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.input{
+    border: 2px solid rgb(19, 18, 18);
+    margin: 10px;
+    font-size: 18px; 
+    padding: 5px; 
+}
+
+.content{
+    border: 1px solid gray;
+    width: 400px;
+    height: 200px;
+    overflow-y: scroll;
+}
+
+main{ 
+    width: 100%; 
+} 
+
+.aside_left{ 
+    position: fixed; 
+    width: 20%; 
+    /* height: 100%; */
+    background-color: lightgreen; 
+} 
+ 
+.aside_rigth{ 
+    position: fixed; 
+    right: 0; 
+    width: 20%; 
+    /* height: 100%; */
+    background-color: lightgreen;    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(35, 34, 34);
+}
+
+footer a{
+    margin: 30px;
+}
+
+footer a:hover{
+    padding: 20px;
+}
